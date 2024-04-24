@@ -1,0 +1,7 @@
+#backend
+/backend/HELP.md
+/.idea/
+
+
+#frontend
+/frontend/node_modules/
