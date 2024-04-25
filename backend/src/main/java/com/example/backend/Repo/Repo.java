@@ -1,6 +1,6 @@
-package Repo;
+package com.example.backend.Repo;
 
-import Model.Restaurant;
+import com.example.backend.Model.Restaurant;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

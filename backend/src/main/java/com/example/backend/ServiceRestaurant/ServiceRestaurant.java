@@ -1,7 +1,7 @@
-package ServiceRestaurant;
+package com.example.backend.ServiceRestaurant;
 
-import Model.Restaurant;
-import Repo.Repo;
+import com.example.backend.Model.Restaurant;
+import com.example.backend.Repo.Repo;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
