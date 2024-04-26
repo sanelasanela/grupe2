@@ -1,0 +1,70 @@
+.login-container {
+    position: fixed;
+    top: 0px;
+    right: 10px;
+    padding: 0px;
+
+
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-size: medium;
+
+}
+
+.login-container input {
+    width: calc(100% - 30px); /* 100% der Breite des Containers minus das Padding */
+    padding: 5px;
+    margin-bottom: 20px;
+    color: #555555;
+}
+
+.login-container button {
+    width: calc(100% - 30px); /* 100% der Breite des Containers minus das Padding */
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+
+body {
+    background-color: #d414ff; /* Hier kannst du die gewünschte Hintergrundfarbe definieren */
+    background-image: url('public/BackgrpundPictureFirstPage.jpg')
+}
+
+.top-text {
+    position: fixed;
+    top: 0;
+    left : 50%;
+    width: calc(100% - 10px);
+    transform: translateX(-50%);
+    background-color: #736296; /* Hintergrundfarbe des Textes */
+    padding: 20px; /* Abstand um den Text */
+    font-size: 16px; /* Schriftgröße */
+}
+
+button {
+    border-radius: 65px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #14ff3b;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+button:hover {
+    border-color: #2c0202;
+}
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+
