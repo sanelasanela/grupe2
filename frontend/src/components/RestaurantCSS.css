@@ -1,0 +1,9 @@
+.restaurantcard{
+
+    Border: 2px solid #14ff3b;
+    Border-radius: 20px;
+    Margin: 10px;
+    Padding: 10px;
+    Display: flex;
+    Flex-direction: column;
+}

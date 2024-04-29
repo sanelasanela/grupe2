@@ -1,7 +1,9 @@
 .nav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-Content: center;
+    position: fixed;
+    top : 50px;
+    left: 90px;
+    Border: 5px solid #d414ff;
+    Border-radius: 20px;
+    Display: block;
+
 }
