@@ -34,7 +34,7 @@
 
 body {
     background-color: #d414ff; /* Hier kannst du die gewünschte Hintergrundfarbe definieren */
-    background-image: url('public/BackgrpundPictureFirstPage.jpg')
+    background-image: url('../../public/BackgrpundPictureFirstPage.jpg')
 }
 
 .top-text {
