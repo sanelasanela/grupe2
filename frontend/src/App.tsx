@@ -15,6 +15,7 @@ import './assets/components/LoginCSS.css';
 
 function App() {
   Login();
+  Navbar();
     const [restaurant, setRestaurant] = useState<Restaurant[]>()
 
     useEffect(() => {
@@ -39,10 +40,8 @@ if(!restaurant){
         </div>
 
         <Login></Login>
-          <Navbar/>
+      <Navbar></Navbar>
       </div>
-
-              <h2 id="liste">Restaurants-Liste</h2>
           <div>
 
               {
