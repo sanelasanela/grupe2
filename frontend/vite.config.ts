@@ -14,7 +14,7 @@ export default defineConfig({
 
         proxy: {
 
-            "/api": {
+            "/Restaurant": {
 
                 target: "http://localhost:8080",
 
