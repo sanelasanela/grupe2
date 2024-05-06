@@ -5,6 +5,10 @@ import "./Restaurant.ts"
 import {useEffect, useState} from "react";
 import axios from 'axios';
 import {Restaurant} from "./Restaurant.ts";
+import {Route, Routes} from "react-router-dom";
+import About from "./components/About.tsx";
+import './components/Navbar.css';
+
 
 
 /*
@@ -16,6 +20,7 @@ import './assets/components/LoginCSS.css';
 function App() {
   Login();
   Navbar();
+
     const [restaurant, setRestaurant] = useState<Restaurant[]>()
 
     useEffect(() => {
@@ -34,6 +39,12 @@ if(!restaurant){
   return (
       <>
 
+
+          <Routes>
+              <Route path="/about" element={<About />} />
+
+          </Routes>
+
       <div>
         <div className="top-text">
           <h1>MY FAVORITE RESTAURANT </h1>
@@ -41,17 +52,18 @@ if(!restaurant){
 
         <Login></Login>
       <Navbar></Navbar>
+
+
       </div>
-          <div>
+          <div className="RestListe">
 
               {
                   restaurant.map(element=> <RestaurantCard restaurant={element}/>)
               }
-
           </div>
 
-
       </>
+
 
   )
 }
